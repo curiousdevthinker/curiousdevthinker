@@ -1,0 +1,40 @@
+<svg width="1400" height="520" viewBox="0 0 1400 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="0" x2="1300" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#020617"/><stop offset="0.52" stop-color="#08122B"/><stop offset="1" stop-color="#110B2E"/></linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22D3EE"/><stop offset="0.52" stop-color="#818CF8"/><stop offset="1" stop-color="#C084FC"/></linearGradient>
+    <radialGradient id="glowCyan"><stop stop-color="#22D3EE" stop-opacity="0.34"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowViolet"><stop stop-color="#A855F7" stop-opacity="0.30"/><stop offset="1" stop-color="#A855F7" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" stroke="#5EE7F7" stroke-opacity="0.075"/></pattern>
+    <clipPath id="frame"><rect width="1400" height="520" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1400" height="520" fill="url(#bg)"/><rect width="1400" height="520" fill="url(#grid)"/>
+    <circle cx="155" cy="95" r="340" fill="url(#glowCyan)"/><circle cx="1260" cy="420" r="390" fill="url(#glowViolet)"/>
+    <path d="M0 433C188 362 289 464 479 400C654 341 717 437 895 377C1087 312 1222 385 1400 291" stroke="url(#neon)" stroke-opacity="0.28" stroke-width="2"/>
+    <path d="M0 455C188 384 299 486 489 422C664 363 727 459 905 399C1097 334 1232 407 1400 313" stroke="#22D3EE" stroke-opacity="0.09"/>
+    <g opacity="0.92">
+      <rect x="76" y="69" width="20" height="7" rx="3.5" fill="#22D3EE"/><text x="108" y="78" fill="#A5F3FC" font-family="monospace" font-size="16" letter-spacing="3">SYSTEM ONLINE</text>
+      <text x="76" y="171" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="800" letter-spacing="-2">GOKUL DEV B</text>
+      <text x="78" y="226" fill="url(#neon)" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" letter-spacing="4">SOFTWARE ENGINEER · IoT · RURAL TECH</text>
+      <text x="78" y="281" fill="#AAB6D3" font-family="Arial, Helvetica, sans-serif" font-size="21">Building resilient systems from field sensors to cloud platforms.</text>
+      <g transform="translate(78 323)"><rect width="172" height="50" rx="25" fill="#0B1933" stroke="#22D3EE" stroke-opacity="0.55"/><circle cx="24" cy="25" r="5" fill="#34D399"><animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/></circle><text x="42" y="31" fill="#DDFBFF" font-family="monospace" font-size="15">BUILDING NOW</text></g>
+      <text x="269" y="356" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Seaweed Aggregator</text>
+    </g>
+    <g transform="translate(865 76)">
+      <rect width="454" height="345" rx="22" fill="#071126" fill-opacity="0.86" stroke="url(#neon)" stroke-opacity="0.48"/><rect x="1" y="1" width="452" height="43" rx="21" fill="#0C1933"/>
+      <circle cx="23" cy="22" r="5" fill="#FB7185"/><circle cx="42" cy="22" r="5" fill="#FBBF24"/><circle cx="61" cy="22" r="5" fill="#34D399"/><text x="87" y="28" fill="#7DD3FC" font-family="monospace" font-size="13">~/gokul/system.profile</text>
+      <g font-family="monospace" font-size="16">
+        <text x="28" y="83" fill="#64748B">01</text><text x="64" y="83" fill="#C084FC">const</text><text x="119" y="83" fill="#E2E8F0"> engineer = {</text>
+        <text x="28" y="117" fill="#64748B">02</text><text x="84" y="117" fill="#67E8F9">role:</text><text x="143" y="117" fill="#A7F3D0"> "Software Engineer"</text><text x="323" y="117" fill="#E2E8F0">,</text>
+        <text x="28" y="151" fill="#64748B">03</text><text x="84" y="151" fill="#67E8F9">stack:</text><text x="153" y="151" fill="#A7F3D0"> ["React", "Python"]</text><text x="355" y="151" fill="#E2E8F0">,</text>
+        <text x="28" y="185" fill="#64748B">04</text><text x="84" y="185" fill="#67E8F9">edge:</text><text x="143" y="185" fill="#A7F3D0"> "Raspberry Pi + IoT"</text><text x="351" y="185" fill="#E2E8F0">,</text>
+        <text x="28" y="219" fill="#64748B">05</text><text x="84" y="219" fill="#67E8F9">data:</text><text x="143" y="219" fill="#A7F3D0"> ["MongoDB", "MinIO"]</text><text x="368" y="219" fill="#E2E8F0">,</text>
+        <text x="28" y="253" fill="#64748B">06</text><text x="84" y="253" fill="#67E8F9">mission:</text><text x="169" y="253" fill="#A7F3D0"> "field → cloud → impact"</text>
+        <text x="28" y="287" fill="#64748B">07</text><text x="64" y="287" fill="#E2E8F0">};</text><text x="28" y="324" fill="#64748B">08</text><text x="64" y="324" fill="#34D399">▌</text>
+      </g>
+    </g>
+    <g fill="#22D3EE"><circle cx="835" cy="110" r="3"><animate attributeName="r" values="3;7;3" dur="2.4s" repeatCount="indefinite"/></circle><circle cx="1334" cy="455" r="3"><animate attributeName="r" values="3;7;3" dur="2.8s" repeatCount="indefinite"/></circle><circle cx="590" cy="435" r="3"><animate attributeName="r" values="3;7;3" dur="3.2s" repeatCount="indefinite"/></circle></g>
+    <rect x="0" y="0" width="1400" height="3" fill="url(#neon)"><animate attributeName="y" values="0;517;0" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".05;.45;.05" dur="8s" repeatCount="indefinite"/></rect>
+  </g>
+  <rect x="1" y="1" width="1398" height="518" rx="27" stroke="url(#neon)" stroke-opacity="0.45" stroke-width="2"/>
+</svg>
