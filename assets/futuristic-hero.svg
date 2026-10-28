@@ -1,82 +1,65 @@
-<svg width="1400" height="520" viewBox="0 0 1400 520" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="360" viewBox="0 0 1280 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Gokul Dev B — Software Engineer</title>
+  <desc id="desc">A modern developer banner for web, mobile, IoT and rural technology work.</desc>
+
   <defs>
-    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#F8FAFC"/><stop offset="1" stop-color="#94A3B8"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#A3E635"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A78BFA"/>
     </linearGradient>
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#A3E635"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/>
-    </linearGradient>
-    <radialGradient id="halo"><stop stop-color="#22D3EE" stop-opacity=".15"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
-    <pattern id="grain" width="52" height="52" patternUnits="userSpaceOnUse">
-      <circle cx="3" cy="4" r="1" fill="#F8FAFC" opacity=".06"/>
-      <circle cx="31" cy="24" r=".7" fill="#A3E635" opacity=".08"/>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#22D3EE" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#94A3B8" stroke-opacity="0.055"/>
     </pattern>
-    <filter id="rough" x="-20%" y="-20%" width="140%" height="140%">
-      <feTurbulence baseFrequency="0.012" numOctaves="1" seed="8" result="noise"/>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.6"/>
-    </filter>
-    <clipPath id="clip"><rect width="1400" height="520" rx="28"/></clipPath>
+    <clipPath id="frame"><rect width="1280" height="360" rx="24"/></clipPath>
   </defs>
-  <g clip-path="url(#clip)">
-    <rect width="1400" height="520" fill="#030303"/>
-    <rect width="1400" height="520" fill="url(#grain)"/>
-    <circle cx="1040" cy="265" r="370" fill="url(#halo)"/>
 
-    <g transform="translate(72 73)">
-      <text x="0" y="26" fill="#A3E635" font-family="monospace" font-size="15" letter-spacing="4">&gt; PROFILE / ONLINE</text>
-      <text x="0" y="114" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800" letter-spacing="-3">GOKUL DEV B</text>
-      <text x="2" y="164" fill="#CBD5E1" font-family="monospace" font-size="22" letter-spacing="2">SOFTWARE ENGINEER  ·  IoT  ·  RURAL TECH</text>
-      <path d="M2 190H618" stroke="url(#neon)" stroke-width="3" stroke-linecap="round"/>
-      <text x="2" y="234" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="20">Building reliable systems from real-world signals.</text>
-      <text x="2" y="270" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="20">Field → edge → API → data → experience.</text>
-      <g transform="translate(0 310)">
-        <rect width="194" height="48" rx="24" fill="#0A0A0A" stroke="#A3E635" stroke-opacity=".8"/>
-        <circle cx="24" cy="24" r="5" fill="#A3E635"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
-        <text x="43" y="30" fill="#ECFCCB" font-family="monospace" font-size="14">CURRENT BUILD</text>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="360" fill="#030508"/>
+    <rect width="1280" height="360" fill="url(#grid)"/>
+    <circle cx="1050" cy="178" r="260" fill="url(#glow)"/>
+    <path d="M0 0H1280" stroke="url(#accent)" stroke-width="4"/>
+    <path d="M72 307H760" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+
+    <g transform="translate(72 58)">
+      <text x="0" y="0" fill="#A3E635" font-family="Consolas, 'Courier New', monospace" font-size="15" font-weight="700" letter-spacing="3">&gt; PROFILE / AVAILABLE</text>
+      <text x="0" y="84" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800" letter-spacing="-2">GOKUL DEV B</text>
+      <text x="2" y="128" fill="#CBD5E1" font-family="Consolas, 'Courier New', monospace" font-size="21" font-weight="700" letter-spacing="1.4">SOFTWARE ENGINEER · IoT · RURAL TECH</text>
+      <text x="2" y="174" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="21">Building useful web, mobile and IoT products.</text>
+      <g transform="translate(0 202)">
+        <rect width="170" height="40" rx="20" fill="#0A1118" stroke="#A3E635" stroke-opacity="0.8"/>
+        <circle cx="21" cy="20" r="5" fill="#A3E635"/>
+        <text x="38" y="26" fill="#D9F99D" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="700">CURRENT BUILD</text>
+        <text x="190" y="27" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">Seaweed Aggregator</text>
       </g>
-      <text x="214" y="341" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Seaweed Aggregator</text>
     </g>
 
-    <g transform="translate(770 44)" fill="none" stroke="url(#ink)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#rough)">
-      <!-- paper plane -->
-      <path d="M76 53L141 28L116 86L97 61L76 53ZM97 61L141 28"/>
-      <path d="M78 83C49 102 49 129 70 143" stroke-dasharray="4 8"/>
-      <!-- code marks -->
-      <path d="M41 190L20 210L41 230M73 190L94 210L73 230" stroke="#A3E635"/>
-      <path d="M129 141C103 141 101 171 118 180C95 190 102 218 129 216"/>
-      <circle cx="155" cy="143" r="3" fill="#22D3EE" stroke="none"/>
-      <circle cx="169" cy="164" r="3" fill="#A3E635" stroke="none"/>
-      <!-- laptop -->
-      <path d="M160 169L392 183L364 344L129 326L160 169Z" stroke="#F8FAFC" stroke-width="4"/>
-      <path d="M177 187L373 199L351 319L150 305L177 187Z" stroke="#64748B"/>
-      <path d="M129 326L364 344L421 374L163 354L129 326Z" stroke="#F8FAFC" stroke-width="4"/>
-      <path d="M190 335L339 347L357 359L205 348L190 335Z"/>
-      <!-- screen code -->
-      <path d="M193 220L216 205M193 220L214 237M336 224L314 209M336 224L312 240" stroke="#A3E635" stroke-width="3"/>
-      <path d="M234 215L285 218M232 233L304 238M231 251L276 255M228 269L322 276M227 287L291 292" stroke="#22D3EE"/>
-      <!-- coffee -->
-      <path d="M62 322H133L123 393H72L62 322ZM133 338C162 333 166 374 128 374"/>
-      <path d="M82 305C68 290 92 278 79 262M105 307C91 292 115 280 102 265" stroke="#A78BFA"/>
-      <!-- database -->
-      <ellipse cx="455" cy="295" rx="53" ry="18"/>
-      <path d="M402 295V369C402 380 426 389 455 389C484 389 508 380 508 369V295M402 320C402 331 426 340 455 340C484 340 508 331 508 320M402 345C402 356 426 365 455 365C484 365 508 356 508 345"/>
-      <path d="M427 287L455 278L483 287" stroke="#A3E635"/>
-      <!-- orbital doodles -->
-      <path d="M429 114C456 82 499 83 519 112C540 142 523 180 485 190" stroke-dasharray="3 9"/>
-      <path d="M451 119L468 104L484 119M470 105V148" stroke="#22D3EE"/>
-      <rect x="493" y="129" width="44" height="31" rx="5" stroke="#A3E635"/>
-      <path d="M499 151L510 140L520 148L531 135" stroke="#A3E635"/>
-      <!-- sparkles -->
-      <path d="M546 233V255M535 244H557M108 119V137M99 128H117M561 337V359M550 348H572" stroke="#A78BFA"/>
-      <path d="M540 55L547 69L561 76L547 83L540 97L533 83L519 76L533 69L540 55Z" stroke="#22D3EE"/>
-      <circle cx="565" cy="173" r="4" fill="#A3E635" stroke="none"/><circle cx="29" cy="283" r="4" fill="#22D3EE" stroke="none"/><circle cx="387" cy="85" r="3" fill="#A78BFA" stroke="none"/>
+    <g transform="translate(892 57)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="0" y="0" width="294" height="246" rx="28" fill="#071019" stroke="#334155" stroke-width="2"/>
+      <path d="M31 44H263" stroke="#1E293B"/>
+      <circle cx="32" cy="23" r="4" fill="#FB7185" stroke="none"/>
+      <circle cx="48" cy="23" r="4" fill="#FACC15" stroke="none"/>
+      <circle cx="64" cy="23" r="4" fill="#A3E635" stroke="none"/>
+      <path d="M93 105L57 136L93 167" stroke="#A3E635" stroke-width="7"/>
+      <path d="M201 105L237 136L201 167" stroke="#22D3EE" stroke-width="7"/>
+      <path d="M169 86L124 187" stroke="#A78BFA" stroke-width="7"/>
+      <path d="M36 212H137" stroke="#334155" stroke-width="5"/>
+      <path d="M36 228H102" stroke="#334155" stroke-width="5"/>
+      <path d="M161 212H258" stroke="#22D3EE" stroke-opacity="0.55" stroke-width="5"/>
+      <path d="M186 228H258" stroke="#A3E635" stroke-opacity="0.55" stroke-width="5"/>
     </g>
 
-    <g font-family="monospace" font-size="14" fill="#94A3B8">
-      <text x="1170" y="76" transform="rotate(7 1170 76)">CODE</text><text x="1194" y="101" transform="rotate(7 1194 101)" fill="#A3E635">BUILD</text><text x="1217" y="127" transform="rotate(7 1217 127)">DEPLOY</text><text x="1240" y="153" transform="rotate(7 1240 153)" fill="#22D3EE">REPEAT</text>
-      <text x="1113" y="470" fill="#64748B">{ clarity: true, impact: measurable }</text>
+    <g fill="none" stroke-width="2" stroke-linecap="round">
+      <path d="M828 75V97M817 86H839" stroke="#A78BFA"/>
+      <path d="M1218 78V100M1207 89H1229" stroke="#A3E635"/>
+      <path d="M820 250L834 264M834 250L820 264" stroke="#22D3EE"/>
+      <circle cx="844" cy="158" r="5" fill="#A3E635" stroke="none"/>
+      <circle cx="1215" cy="270" r="4" fill="#A78BFA" stroke="none"/>
     </g>
-    <path d="M1395 4L1395 516L5 516" stroke="url(#neon)" stroke-opacity=".45" stroke-width="2" stroke-dasharray="8 12"><animate attributeName="stroke-dashoffset" values="0;-80" dur="5s" repeatCount="indefinite"/></path>
   </g>
-  <rect x="1" y="1" width="1398" height="518" rx="27" fill="none" stroke="#334155" stroke-width="2"/>
+  <rect x="1" y="1" width="1278" height="358" rx="23" fill="none" stroke="#334155" stroke-width="2"/>
 </svg>
