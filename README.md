@@ -97,7 +97,7 @@ Supports projects, datasets, categories, images, assignments, annotations, roles
 
 > A responsive field dashboard for coconut-health data, mapped observations, and service-backed agricultural views.
 
-`React` `TypeScript` `Tailwing CSS` `Leaflet` `Axios` `GSAP`
+`React` `TypeScript` `Tailwind CSS` `Leaflet` `Axios` `GSAP`
 
 **[view repository →](https://github.com/ruraltechammachilabs/coconuthealth_v2)**
 
