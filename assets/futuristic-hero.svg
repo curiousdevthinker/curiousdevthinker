@@ -1,40 +1,82 @@
-<svg width="1400" height="520" viewBox="0 0 1400 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1400" height="520" viewBox="0 0 1400 520" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="90" y1="0" x2="1300" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#020617"/><stop offset="0.52" stop-color="#08122B"/><stop offset="1" stop-color="#110B2E"/></linearGradient>
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22D3EE"/><stop offset="0.52" stop-color="#818CF8"/><stop offset="1" stop-color="#C084FC"/></linearGradient>
-    <radialGradient id="glowCyan"><stop stop-color="#22D3EE" stop-opacity="0.34"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
-    <radialGradient id="glowViolet"><stop stop-color="#A855F7" stop-opacity="0.30"/><stop offset="1" stop-color="#A855F7" stop-opacity="0"/></radialGradient>
-    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" stroke="#5EE7F7" stroke-opacity="0.075"/></pattern>
-    <clipPath id="frame"><rect width="1400" height="520" rx="28"/></clipPath>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F8FAFC"/><stop offset="1" stop-color="#94A3B8"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#A3E635"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <radialGradient id="halo"><stop stop-color="#22D3EE" stop-opacity=".15"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <pattern id="grain" width="52" height="52" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="4" r="1" fill="#F8FAFC" opacity=".06"/>
+      <circle cx="31" cy="24" r=".7" fill="#A3E635" opacity=".08"/>
+    </pattern>
+    <filter id="rough" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence baseFrequency="0.012" numOctaves="1" seed="8" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.6"/>
+    </filter>
+    <clipPath id="clip"><rect width="1400" height="520" rx="28"/></clipPath>
   </defs>
-  <g clip-path="url(#frame)">
-    <rect width="1400" height="520" fill="url(#bg)"/><rect width="1400" height="520" fill="url(#grid)"/>
-    <circle cx="155" cy="95" r="340" fill="url(#glowCyan)"/><circle cx="1260" cy="420" r="390" fill="url(#glowViolet)"/>
-    <path d="M0 433C188 362 289 464 479 400C654 341 717 437 895 377C1087 312 1222 385 1400 291" stroke="url(#neon)" stroke-opacity="0.28" stroke-width="2"/>
-    <path d="M0 455C188 384 299 486 489 422C664 363 727 459 905 399C1097 334 1232 407 1400 313" stroke="#22D3EE" stroke-opacity="0.09"/>
-    <g opacity="0.92">
-      <rect x="76" y="69" width="20" height="7" rx="3.5" fill="#22D3EE"/><text x="108" y="78" fill="#A5F3FC" font-family="monospace" font-size="16" letter-spacing="3">SYSTEM ONLINE</text>
-      <text x="76" y="171" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="800" letter-spacing="-2">GOKUL DEV B</text>
-      <text x="78" y="226" fill="url(#neon)" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" letter-spacing="4">SOFTWARE ENGINEER · IoT · RURAL TECH</text>
-      <text x="78" y="281" fill="#AAB6D3" font-family="Arial, Helvetica, sans-serif" font-size="21">Building resilient systems from field sensors to cloud platforms.</text>
-      <g transform="translate(78 323)"><rect width="172" height="50" rx="25" fill="#0B1933" stroke="#22D3EE" stroke-opacity="0.55"/><circle cx="24" cy="25" r="5" fill="#34D399"><animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/></circle><text x="42" y="31" fill="#DDFBFF" font-family="monospace" font-size="15">BUILDING NOW</text></g>
-      <text x="269" y="356" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Seaweed Aggregator</text>
-    </g>
-    <g transform="translate(865 76)">
-      <rect width="454" height="345" rx="22" fill="#071126" fill-opacity="0.86" stroke="url(#neon)" stroke-opacity="0.48"/><rect x="1" y="1" width="452" height="43" rx="21" fill="#0C1933"/>
-      <circle cx="23" cy="22" r="5" fill="#FB7185"/><circle cx="42" cy="22" r="5" fill="#FBBF24"/><circle cx="61" cy="22" r="5" fill="#34D399"/><text x="87" y="28" fill="#7DD3FC" font-family="monospace" font-size="13">~/gokul/system.profile</text>
-      <g font-family="monospace" font-size="16">
-        <text x="28" y="83" fill="#64748B">01</text><text x="64" y="83" fill="#C084FC">const</text><text x="119" y="83" fill="#E2E8F0"> engineer = {</text>
-        <text x="28" y="117" fill="#64748B">02</text><text x="84" y="117" fill="#67E8F9">role:</text><text x="143" y="117" fill="#A7F3D0"> "Software Engineer"</text><text x="323" y="117" fill="#E2E8F0">,</text>
-        <text x="28" y="151" fill="#64748B">03</text><text x="84" y="151" fill="#67E8F9">stack:</text><text x="153" y="151" fill="#A7F3D0"> ["React", "Python"]</text><text x="355" y="151" fill="#E2E8F0">,</text>
-        <text x="28" y="185" fill="#64748B">04</text><text x="84" y="185" fill="#67E8F9">edge:</text><text x="143" y="185" fill="#A7F3D0"> "Raspberry Pi + IoT"</text><text x="351" y="185" fill="#E2E8F0">,</text>
-        <text x="28" y="219" fill="#64748B">05</text><text x="84" y="219" fill="#67E8F9">data:</text><text x="143" y="219" fill="#A7F3D0"> ["MongoDB", "MinIO"]</text><text x="368" y="219" fill="#E2E8F0">,</text>
-        <text x="28" y="253" fill="#64748B">06</text><text x="84" y="253" fill="#67E8F9">mission:</text><text x="169" y="253" fill="#A7F3D0"> "field → cloud → impact"</text>
-        <text x="28" y="287" fill="#64748B">07</text><text x="64" y="287" fill="#E2E8F0">};</text><text x="28" y="324" fill="#64748B">08</text><text x="64" y="324" fill="#34D399">▌</text>
+  <g clip-path="url(#clip)">
+    <rect width="1400" height="520" fill="#030303"/>
+    <rect width="1400" height="520" fill="url(#grain)"/>
+    <circle cx="1040" cy="265" r="370" fill="url(#halo)"/>
+
+    <g transform="translate(72 73)">
+      <text x="0" y="26" fill="#A3E635" font-family="monospace" font-size="15" letter-spacing="4">&gt; PROFILE / ONLINE</text>
+      <text x="0" y="114" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800" letter-spacing="-3">GOKUL DEV B</text>
+      <text x="2" y="164" fill="#CBD5E1" font-family="monospace" font-size="22" letter-spacing="2">SOFTWARE ENGINEER  ·  IoT  ·  RURAL TECH</text>
+      <path d="M2 190H618" stroke="url(#neon)" stroke-width="3" stroke-linecap="round"/>
+      <text x="2" y="234" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="20">Building reliable systems from real-world signals.</text>
+      <text x="2" y="270" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="20">Field → edge → API → data → experience.</text>
+      <g transform="translate(0 310)">
+        <rect width="194" height="48" rx="24" fill="#0A0A0A" stroke="#A3E635" stroke-opacity=".8"/>
+        <circle cx="24" cy="24" r="5" fill="#A3E635"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+        <text x="43" y="30" fill="#ECFCCB" font-family="monospace" font-size="14">CURRENT BUILD</text>
       </g>
+      <text x="214" y="341" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Seaweed Aggregator</text>
     </g>
-    <g fill="#22D3EE"><circle cx="835" cy="110" r="3"><animate attributeName="r" values="3;7;3" dur="2.4s" repeatCount="indefinite"/></circle><circle cx="1334" cy="455" r="3"><animate attributeName="r" values="3;7;3" dur="2.8s" repeatCount="indefinite"/></circle><circle cx="590" cy="435" r="3"><animate attributeName="r" values="3;7;3" dur="3.2s" repeatCount="indefinite"/></circle></g>
-    <rect x="0" y="0" width="1400" height="3" fill="url(#neon)"><animate attributeName="y" values="0;517;0" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".05;.45;.05" dur="8s" repeatCount="indefinite"/></rect>
+
+    <g transform="translate(770 44)" fill="none" stroke="url(#ink)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#rough)">
+      <!-- paper plane -->
+      <path d="M76 53L141 28L116 86L97 61L76 53ZM97 61L141 28"/>
+      <path d="M78 83C49 102 49 129 70 143" stroke-dasharray="4 8"/>
+      <!-- code marks -->
+      <path d="M41 190L20 210L41 230M73 190L94 210L73 230" stroke="#A3E635"/>
+      <path d="M129 141C103 141 101 171 118 180C95 190 102 218 129 216"/>
+      <circle cx="155" cy="143" r="3" fill="#22D3EE" stroke="none"/>
+      <circle cx="169" cy="164" r="3" fill="#A3E635" stroke="none"/>
+      <!-- laptop -->
+      <path d="M160 169L392 183L364 344L129 326L160 169Z" stroke="#F8FAFC" stroke-width="4"/>
+      <path d="M177 187L373 199L351 319L150 305L177 187Z" stroke="#64748B"/>
+      <path d="M129 326L364 344L421 374L163 354L129 326Z" stroke="#F8FAFC" stroke-width="4"/>
+      <path d="M190 335L339 347L357 359L205 348L190 335Z"/>
+      <!-- screen code -->
+      <path d="M193 220L216 205M193 220L214 237M336 224L314 209M336 224L312 240" stroke="#A3E635" stroke-width="3"/>
+      <path d="M234 215L285 218M232 233L304 238M231 251L276 255M228 269L322 276M227 287L291 292" stroke="#22D3EE"/>
+      <!-- coffee -->
+      <path d="M62 322H133L123 393H72L62 322ZM133 338C162 333 166 374 128 374"/>
+      <path d="M82 305C68 290 92 278 79 262M105 307C91 292 115 280 102 265" stroke="#A78BFA"/>
+      <!-- database -->
+      <ellipse cx="455" cy="295" rx="53" ry="18"/>
+      <path d="M402 295V369C402 380 426 389 455 389C484 389 508 380 508 369V295M402 320C402 331 426 340 455 340C484 340 508 331 508 320M402 345C402 356 426 365 455 365C484 365 508 356 508 345"/>
+      <path d="M427 287L455 278L483 287" stroke="#A3E635"/>
+      <!-- orbital doodles -->
+      <path d="M429 114C456 82 499 83 519 112C540 142 523 180 485 190" stroke-dasharray="3 9"/>
+      <path d="M451 119L468 104L484 119M470 105V148" stroke="#22D3EE"/>
+      <rect x="493" y="129" width="44" height="31" rx="5" stroke="#A3E635"/>
+      <path d="M499 151L510 140L520 148L531 135" stroke="#A3E635"/>
+      <!-- sparkles -->
+      <path d="M546 233V255M535 244H557M108 119V137M99 128H117M561 337V359M550 348H572" stroke="#A78BFA"/>
+      <path d="M540 55L547 69L561 76L547 83L540 97L533 83L519 76L533 69L540 55Z" stroke="#22D3EE"/>
+      <circle cx="565" cy="173" r="4" fill="#A3E635" stroke="none"/><circle cx="29" cy="283" r="4" fill="#22D3EE" stroke="none"/><circle cx="387" cy="85" r="3" fill="#A78BFA" stroke="none"/>
+    </g>
+
+    <g font-family="monospace" font-size="14" fill="#94A3B8">
+      <text x="1170" y="76" transform="rotate(7 1170 76)">CODE</text><text x="1194" y="101" transform="rotate(7 1194 101)" fill="#A3E635">BUILD</text><text x="1217" y="127" transform="rotate(7 1217 127)">DEPLOY</text><text x="1240" y="153" transform="rotate(7 1240 153)" fill="#22D3EE">REPEAT</text>
+      <text x="1113" y="470" fill="#64748B">{ clarity: true, impact: measurable }</text>
+    </g>
+    <path d="M1395 4L1395 516L5 516" stroke="url(#neon)" stroke-opacity=".45" stroke-width="2" stroke-dasharray="8 12"><animate attributeName="stroke-dashoffset" values="0;-80" dur="5s" repeatCount="indefinite"/></path>
   </g>
-  <rect x="1" y="1" width="1398" height="518" rx="27" stroke="url(#neon)" stroke-opacity="0.45" stroke-width="2"/>
+  <rect x="1" y="1" width="1398" height="518" rx="27" fill="none" stroke="#334155" stroke-width="2"/>
 </svg>
