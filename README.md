@@ -4,6 +4,12 @@
 
 <div align="center">
 
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=Software+Engineer+%7C+Rural+Technologies;Building+field-ready+platforms+and+APIs;React+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+FastAPI;Code+%C2%B7+Field+%C2%B7+Impact" alt="Software Engineer building field-ready platforms and APIs" />
+
+</div>
+
+<div align="center">
+
 [![GitHub](https://img.shields.io/badge/GitHub-curiousdevthinker-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff)](https://github.com/curiousdevthinker)
 [![Rural Tech](https://img.shields.io/badge/Team-Rural_Technologies-0d1117?style=for-the-badge&logo=leaflet&logoColor=3fb950)](https://github.com/ruraltechammachilabs)
 [![AMMACHI Labs](https://img.shields.io/badge/Lab-AMMACHI-0d1117?style=for-the-badge&logo=probot&logoColor=bc8cff)](https://ammachilabs.org/rural-participatory-design/)
@@ -20,6 +26,12 @@ const engineer = {
   status: "shipping useful systems"
 };
 ```
+
+<div align="center">
+
+`BUILDING` **Seaweed Aggregator** &nbsp;·&nbsp; `FOCUS` **Full-stack systems** &nbsp;·&nbsp; `BASED IN` **India**
+
+</div>
 
 ## `~/about`
 
@@ -67,6 +79,19 @@ $ engineering_values
 ![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=2496ED)
 ![Linux](https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=FCC624)
 
+## `~/current-build`
+
+### `00 // Seaweed Aggregator` &nbsp; ![Status](https://img.shields.io/badge/STATUS-IN_PROGRESS-D29922?style=flat-square)
+
+> A backend and web platform for seaweed cultivation aggregation, field operations, and livelihood workflows.
+
+```text
+scope     → backend services + web experience
+domain    → coastal livelihoods + cultivation aggregation
+priority  → clear workflows + reliable field data + usable operations
+status    → actively building
+```
+
 ## `~/projects --featured`
 
 ### `01 // Data Center Monitoring System`
@@ -104,10 +129,6 @@ Supports projects, datasets, categories, images, assignments, annotations, roles
 ## `~/field-systems --more`
 
 ```yaml
-seaweed_aggregator:
-  components: [backend, web platform]
-  purpose: cultivation aggregation and livelihood workflows
-
 elephant_watch:
   component: backend
   purpose: AI-assisted detection events and rapid field alerts
@@ -128,6 +149,10 @@ goat:
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=curiousdevthinker&bg_color=0d1117&color=8b949e&line=58a6ff&point=3fb950&area=true&hide_border=true" width="100%" alt="Contribution activity graph" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=curiousdevthinker&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=3FB950&currStreakLabel=C9D1D9" alt="Gokul's GitHub contribution streak" />
 </div>
 
 ```text
