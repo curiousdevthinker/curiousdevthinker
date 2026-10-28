@@ -3,9 +3,6 @@
 </div>
 
 <div align="center">
-
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2600&pause=650&color=67E8F9&center=true&vCenter=true&width=900&lines=Designing+systems+from+field+signals+to+cloud+platforms;Building+Seaweed+Aggregator+%E2%80%94+web+%2B+mobile;React+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+FastAPI+%C2%B7+IoT;Code+with+clarity.+Ship+with+purpose." alt="Animated introduction" />
-
   [![Profile views](https://komarev.com/ghpvc/?username=curiousdevthinker&style=for-the-badge&color=0891b2&label=PROFILE+SIGNALS)](https://github.com/curiousdevthinker)
   [![Rural Technologies](https://img.shields.io/badge/RURAL_TECHNOLOGIES-0B1220?style=for-the-badge&logo=leaflet&logoColor=34D399)](https://github.com/ruraltechammachilabs)
   [![Current build](https://img.shields.io/badge/CURRENT_BUILD-SEAWEED_AGGREGATOR-0B1220?style=for-the-badge&logo=githubactions&logoColor=67E8F9)](#current-build)
@@ -21,15 +18,15 @@
     </td>
     <td width="68%">
       <h2>Engineer for the physical world.</h2>
-      <p>I build software where <strong>field operations, IoT signals, data platforms, and product interfaces</strong> meet. My work covers rural technology, environmental monitoring, agricultural health, early-warning systems, geospatial workflows, and infrastructure.</p>
-      <p>I move across the stack: understanding the field problem, shaping the data model, building APIs, designing dashboards, operating Linux systems, and making the final workflow useful.</p>
+      <p>I have worked across <strong>web applications, mobile experiences, IoT monitoring, data platforms, and infrastructure</strong>. My experience includes rural technology, environmental monitoring, agricultural health, early-warning applications, geospatial interfaces, and server operations.</p>
+      <p>I enjoy building clear interfaces, dependable services, useful dashboards, and practical tools for people working in the field.</p>
       <code>India</code> · <code>Rural Technologies</code> · <code>AMMACHI Labs</code>
     </td>
   </tr>
 </table>
 
 <div align="center">
-  <img src="./assets/field-to-cloud.svg" width="100%" alt="Field to cloud engineering workflow" />
+  <img src="./assets/experience-grid.svg" width="100%" alt="Technologies and platforms Gokul has worked with" />
 </div>
 
 ## `02 / current-build`
@@ -41,13 +38,13 @@
     <td width="70%">
       <h2>Seaweed Aggregator</h2>
       <h4>Website + mobile app · actively building</h4>
-      <p>A connected platform for seaweed cultivation aggregation, coastal field operations, livelihood workflows, reliable data collection, and coordinated service delivery.</p>
-      <p><strong>Engineering focus</strong></p>
+      <p>Currently contributing to a website and mobile application supporting seaweed cultivation, coastal field operations, livelihood workflows, and coordinated service delivery.</p>
+      <p><strong>Areas of contribution</strong></p>
       <ul>
-        <li>Clear workflows for field teams and operations</li>
-        <li>Reliable APIs and structured domain data</li>
-        <li>Responsive web and mobile experiences</li>
-        <li>Practical observability and maintainable delivery</li>
+        <li>Full-stack application development</li>
+        <li>Field-focused website and mobile experiences</li>
+        <li>Operational dashboards and user workflows</li>
+        <li>Maintainable software delivery</li>
       </ul>
     </td>
     <td width="30%" align="center">
@@ -58,10 +55,6 @@
   </tr>
 </table>
 
-<div align="center">
-  <img src="./assets/field-cloud-network.png" width="100%" alt="Futuristic connected rural technology network" />
-</div>
-
 ## `03 / impact-systems`
 
 <table>
@@ -69,31 +62,31 @@
     <td width="50%" valign="top">
       <h3>01 · Seaweed Aggregator</h3>
       <code>Website + App</code>
-      <p>Coastal cultivation, aggregation, field operations, data collection, and livelihood workflows.</p>
+      <p>Worked on digital tools for coastal cultivation, field operations, and livelihood workflows.</p>
     </td>
     <td width="50%" valign="top">
       <h3>02 · ElephantWatch</h3>
       <code>Website + App</code>
-      <p>AI-assisted detection events, camera signals, community alerts, and rapid early-warning workflows.</p>
+      <p>Worked on a website and app supporting elephant monitoring and community early-warning use cases.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>03 · Sapling Health Monitor</h3>
       <code>Website</code>
-      <p>Geotagged sapling health, irrigation status, field observations, and monitoring dashboards.</p>
+      <p>Worked on a website for sapling health, irrigation observations, and field monitoring.</p>
     </td>
     <td width="50%" valign="top">
       <h3>04 · Goat Monitoring</h3>
       <code>Website</code>
-      <p>Livestock records, health observations, rural livelihood workflows, and program monitoring.</p>
+      <p>Worked on a website for livestock health observations and rural livelihood monitoring.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>05 · Data Center Monitoring</h3>
       <code>IoT Website</code>
-      <p>A Raspberry Pi reads temperature, humidity, and smoke through connected IoT sensors, then sends the measurements to the monitoring website for live status and operational alerts.</p>
+      <p>Worked on an IoT monitoring website for temperature, humidity, and smoke using Raspberry Pi-connected sensors.</p>
       <a href="https://github.com/ruraltechammachilabs/temperature-monitor-frontend">View repository →</a>
     </td>
     <td width="50%" valign="top">
@@ -121,11 +114,11 @@
 </div>
 
 <table>
-  <tr><td><strong>Product</strong></td><td>React · TypeScript · Vite · Redux Toolkit · Tailwind · Material UI · Leaflet</td></tr>
-  <tr><td><strong>Services</strong></td><td>Python · FastAPI · REST APIs · JWT · Firebase Admin · Pydantic</td></tr>
-  <tr><td><strong>Data</strong></td><td>MongoDB · MinIO · Firebase · object storage · structured field data</td></tr>
-  <tr><td><strong>Edge & IoT</strong></td><td>Raspberry Pi · Python IoT · temperature, humidity, and smoke sensors · live telemetry · event monitoring</td></tr>
-  <tr><td><strong>Infrastructure</strong></td><td>Linux server management · networking · file management · remote development · cloud infrastructure · Docker</td></tr>
+  <tr><td><strong>Frontend experience</strong></td><td>React · TypeScript · Vite · Redux Toolkit · Tailwind · Material UI · Leaflet</td></tr>
+  <tr><td><strong>Backend experience</strong></td><td>Python · FastAPI · REST APIs · Firebase Admin · Pydantic</td></tr>
+  <tr><td><strong>Data experience</strong></td><td>MongoDB · MinIO · Firebase · object storage</td></tr>
+  <tr><td><strong>IoT experience</strong></td><td>Raspberry Pi · Python IoT · temperature, humidity, and smoke sensors</td></tr>
+  <tr><td><strong>Infrastructure experience</strong></td><td>Linux server management · networking · file management · remote development · cloud infrastructure · Docker</td></tr>
 </table>
 
 ## `05 / github-telemetry`
