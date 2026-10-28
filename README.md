@@ -3,9 +3,9 @@
 </div>
 
 <div align="center">
-  [![Profile views](https://komarev.com/ghpvc/?username=curiousdevthinker&style=for-the-badge&color=0891b2&label=PROFILE+SIGNALS)](https://github.com/curiousdevthinker)
-  [![Rural Technologies](https://img.shields.io/badge/RURAL_TECHNOLOGIES-0B1220?style=for-the-badge&logo=leaflet&logoColor=34D399)](https://github.com/ruraltechammachilabs)
-  [![Current build](https://img.shields.io/badge/CURRENT_BUILD-SEAWEED_AGGREGATOR-0B1220?style=for-the-badge&logo=githubactions&logoColor=67E8F9)](#current-build)
+  <a href="https://github.com/curiousdevthinker"><img src="https://komarev.com/ghpvc/?username=curiousdevthinker&amp;style=for-the-badge&amp;color=0891b2&amp;label=PROFILE+SIGNALS" alt="Profile views" /></a>
+  <a href="https://github.com/ruraltechammachilabs"><img src="https://img.shields.io/badge/RURAL_TECHNOLOGIES-0B1220?style=for-the-badge&amp;logo=leaflet&amp;logoColor=34D399" alt="Rural Technologies" /></a>
+  <a href="#current-build"><img src="https://img.shields.io/badge/CURRENT_BUILD-SEAWEED_AGGREGATOR-0B1220?style=for-the-badge&amp;logo=githubactions&amp;logoColor=67E8F9" alt="Current build" /></a>
 
 </div>
 
