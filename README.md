@@ -1,236 +1,153 @@
 <div align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Gokul Dev B — software engineer building rural technology" />
-</div>
-
-<h1 align="center">Gokul Dev B</h1>
-
-<h3 align="center">Software Engineer · Full-Stack Developer · IoT & Rural Technology</h3>
-
-<p align="center">
-  <img src="./assets/profile-photo.jpg" width="260" alt="Gokul Dev B" />
-</p>
-
-<div align="center">
-
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=Software+Engineer+%7C+Rural+Technologies;Building+field-ready+platforms+and+APIs;React+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+FastAPI;Code+%C2%B7+Field+%C2%B7+Impact" alt="Software Engineer building field-ready platforms and APIs" />
-
+  <img src="./assets/futuristic-hero.svg" width="100%" alt="Gokul Dev B — Software Engineer, IoT and Rural Technology" />
 </div>
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-curiousdevthinker-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff)](https://github.com/curiousdevthinker)
-[![Rural Tech](https://img.shields.io/badge/Team-Rural_Technologies-0d1117?style=for-the-badge&logo=leaflet&logoColor=3fb950)](https://github.com/ruraltechammachilabs)
-[![AMMACHI Labs](https://img.shields.io/badge/Lab-AMMACHI-0d1117?style=for-the-badge&logo=probot&logoColor=bc8cff)](https://ammachilabs.org/rural-participatory-design/)
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2600&pause=650&color=67E8F9&center=true&vCenter=true&width=900&lines=Designing+systems+from+field+signals+to+cloud+platforms;Building+Seaweed+Aggregator+%E2%80%94+web+%2B+mobile;React+%C2%B7+TypeScript+%C2%B7+Python+%C2%B7+FastAPI+%C2%B7+IoT;Code+with+clarity.+Ship+with+purpose." alt="Animated introduction" />
+
+  [![Profile views](https://komarev.com/ghpvc/?username=curiousdevthinker&style=for-the-badge&color=0891b2&label=PROFILE+SIGNALS)](https://github.com/curiousdevthinker)
+  [![Rural Technologies](https://img.shields.io/badge/RURAL_TECHNOLOGIES-0B1220?style=for-the-badge&logo=leaflet&logoColor=34D399)](https://github.com/ruraltechammachilabs)
+  [![Current build](https://img.shields.io/badge/CURRENT_BUILD-SEAWEED_AGGREGATOR-0B1220?style=for-the-badge&logo=githubactions&logoColor=67E8F9)](#current-build)
 
 </div>
 
-```ts
-const engineer = {
-  name: "Gokul Dev B",
-  role: "Software Engineer",
-  team: "Rural Technologies · AMMACHI Labs",
-  mission: "Build reliable software for real-world impact",
-  domains: ["rural tech", "agritech", "monitoring", "applied AI"],
-  status: "shipping useful systems"
-};
-```
+## `01 / identity`
+
+<table>
+  <tr>
+    <td width="32%" align="center">
+      <img src="./assets/profile-photo.jpg" width="205" alt="Gokul Dev B" />
+    </td>
+    <td width="68%">
+      <h2>Engineer for the physical world.</h2>
+      <p>I build software where <strong>field operations, IoT signals, data platforms, and product interfaces</strong> meet. My work covers rural technology, environmental monitoring, agricultural health, early-warning systems, geospatial workflows, and infrastructure.</p>
+      <p>I move across the stack: understanding the field problem, shaping the data model, building APIs, designing dashboards, operating Linux systems, and making the final workflow useful.</p>
+      <code>India</code> · <code>Rural Technologies</code> · <code>AMMACHI Labs</code>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <img src="./assets/field-to-cloud.svg" width="100%" alt="Field to cloud engineering workflow" />
+</div>
+
+## `02 / current-build`
+
+<a id="current-build"></a>
+
+<table>
+  <tr>
+    <td width="70%">
+      <h2>Seaweed Aggregator</h2>
+      <h4>Website + mobile app · actively building</h4>
+      <p>A connected platform for seaweed cultivation aggregation, coastal field operations, livelihood workflows, reliable data collection, and coordinated service delivery.</p>
+      <p><strong>Engineering focus</strong></p>
+      <ul>
+        <li>Clear workflows for field teams and operations</li>
+        <li>Reliable APIs and structured domain data</li>
+        <li>Responsive web and mobile experiences</li>
+        <li>Practical observability and maintainable delivery</li>
+      </ul>
+    </td>
+    <td width="30%" align="center">
+      <img src="https://img.shields.io/badge/STATUS-IN_PROGRESS-0891B2?style=for-the-badge" alt="In progress" /><br><br>
+      <img src="https://img.shields.io/badge/DOMAIN-BLUE_ECONOMY-0F766E?style=flat-square" alt="Blue economy" /><br>
+      <img src="https://img.shields.io/badge/DELIVERY-WEB_%2B_APP-6D28D9?style=flat-square" alt="Web and app" />
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <img src="./assets/field-cloud-network.png" width="100%" alt="Futuristic connected rural technology network" />
+</div>
+
+## `03 / impact-systems`
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>01 · Seaweed Aggregator</h3>
+      <code>Website + App</code>
+      <p>Coastal cultivation, aggregation, field operations, data collection, and livelihood workflows.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>02 · ElephantWatch</h3>
+      <code>Website + App</code>
+      <p>AI-assisted detection events, camera signals, community alerts, and rapid early-warning workflows.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>03 · Sapling Health Monitor</h3>
+      <code>Website</code>
+      <p>Geotagged sapling health, irrigation status, field observations, and monitoring dashboards.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>04 · Goat Monitoring</h3>
+      <code>Website</code>
+      <p>Livestock records, health observations, rural livelihood workflows, and program monitoring.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>05 · Data Center Monitoring</h3>
+      <code>IoT Website</code>
+      <p>A Raspberry Pi reads temperature, humidity, and smoke through connected IoT sensors, then sends the measurements to the monitoring website for live status and operational alerts.</p>
+      <a href="https://github.com/ruraltechammachilabs/temperature-monitor-frontend">View repository →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>More engineering work</h3>
+      <p><a href="https://github.com/ruraltechammachilabs/airanya_admin_server"><strong>AIranya</strong></a> — async image annotation and classification backend.</p>
+      <p><a href="https://github.com/ruraltechammachilabs/coconuthealth_v2"><strong>Coconut Health</strong></a> — mapped agricultural health and field data experience.</p>
+    </td>
+  </tr>
+</table>
+
+<details>
+  <summary><strong>ElephantWatch · field presentation</strong></summary>
+  <br>
+  <div align="center">
+    <img src="./assets/elephantwatch-project.jpg" width="70%" alt="Gokul presenting the ElephantWatch early-warning system" />
+  </div>
+</details>
+
+## `04 / technology-grid`
 
 <div align="center">
 
-`BUILDING` **Seaweed Aggregator** &nbsp;·&nbsp; `FOCUS` **Full-stack systems** &nbsp;·&nbsp; `BASED IN` **India**
+  <img src="https://skillicons.dev/icons?i=ts,js,py,react,vite,redux,tailwind,materialui,fastapi,mongodb,firebase,docker,linux,raspberrypi,git,vscode&theme=dark&perline=8" alt="Technology stack" />
 
 </div>
 
-## `~/about`
+<table>
+  <tr><td><strong>Product</strong></td><td>React · TypeScript · Vite · Redux Toolkit · Tailwind · Material UI · Leaflet</td></tr>
+  <tr><td><strong>Services</strong></td><td>Python · FastAPI · REST APIs · JWT · Firebase Admin · Pydantic</td></tr>
+  <tr><td><strong>Data</strong></td><td>MongoDB · MinIO · Firebase · object storage · structured field data</td></tr>
+  <tr><td><strong>Edge & IoT</strong></td><td>Raspberry Pi · Python IoT · temperature, humidity, and smoke sensors · live telemetry · event monitoring</td></tr>
+  <tr><td><strong>Infrastructure</strong></td><td>Linux server management · networking · file management · remote development · cloud infrastructure · Docker</td></tr>
+</table>
 
-I build software that connects **field reality with digital systems**. My work spans real-time monitoring, agricultural health, image annotation, geospatial field data, early-alert systems, and rural livelihood platforms.
-
-I enjoy owning the path from interface to API: shaping the data, building the workflow, handling failure states, and making the final system understandable to the people using it.
-
-<p align="center">
-  <img src="./assets/developer-workspace.jpg" width="72%" alt="Gokul working in a software engineering workspace" />
-</p>
-
-```text
-$ current_focus
-> resilient dashboards · async APIs · field data · useful automation
-
-$ engineering_values
-> clarity · reliability · maintainability · measurable impact
-```
-
-## `~/stack --list`
-
-### Languages
-
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178C6)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB)
-
-### Frontend
-
-![React](https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-0d1117?style=flat-square&logo=vite&logoColor=646CFF)
-![Redux](https://img.shields.io/badge/Redux_Toolkit-0d1117?style=flat-square&logo=redux&logoColor=764ABC)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0d1117?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
-![Material UI](https://img.shields.io/badge/Material_UI-0d1117?style=flat-square&logo=mui&logoColor=007FFF)
-![Leaflet](https://img.shields.io/badge/Leaflet-0d1117?style=flat-square&logo=leaflet&logoColor=199900)
-
-### Backend & Data
-
-![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=009688)
-![MongoDB](https://img.shields.io/badge/MongoDB-0d1117?style=flat-square&logo=mongodb&logoColor=47A248)
-![Firebase](https://img.shields.io/badge/Firebase-0d1117?style=flat-square&logo=firebase&logoColor=FFCA28)
-![Pydantic](https://img.shields.io/badge/Pydantic-0d1117?style=flat-square&logo=pydantic&logoColor=E92063)
-![REST API](https://img.shields.io/badge/REST_APIs-0d1117?style=flat-square&logo=fastapi&logoColor=58a6ff)
-![JWT](https://img.shields.io/badge/JWT-0d1117?style=flat-square&logo=jsonwebtokens&logoColor=bc8cff)
-![MinIO](https://img.shields.io/badge/MinIO-0d1117?style=flat-square&logo=minio&logoColor=C72E49)
-
-### IoT, Infrastructure & Systems
-
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-0d1117?style=flat-square&logo=raspberrypi&logoColor=A22846)
-![Python IoT](https://img.shields.io/badge/Python_IoT-0d1117?style=flat-square&logo=python&logoColor=3776AB)
-![Linux Server](https://img.shields.io/badge/Linux_Server_Management-0d1117?style=flat-square&logo=linux&logoColor=FCC624)
-![Networking](https://img.shields.io/badge/Network_Management-0d1117?style=flat-square&logo=cisco&logoColor=1BA0D7)
-![Remote Development](https://img.shields.io/badge/Remote_Development-0d1117?style=flat-square&logo=visualstudiocode&logoColor=007ACC)
-![Cloud Infrastructure](https://img.shields.io/badge/Cloud_Infrastructure-0d1117?style=flat-square&logo=icloud&logoColor=58A6FF)
-
-### Tools
-
-![Git](https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=F05032)
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=2496ED)
-![Linux](https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=FCC624)
-
-## `~/current-build`
-
-### `00 // Seaweed Aggregator` &nbsp; ![Status](https://img.shields.io/badge/STATUS-IN_PROGRESS-D29922?style=flat-square)
-
-> A backend and web platform for seaweed cultivation aggregation, field operations, and livelihood workflows.
-
-```text
-scope     → backend services + web experience
-domain    → coastal livelihoods + cultivation aggregation
-priority  → clear workflows + reliable field data + usable operations
-delivery  → website + mobile app
-status    → actively building
-```
-
-<p align="center">
-  <img src="./assets/rural-tech-projects.png" width="100%" alt="Visual overview of Gokul's rural technology projects" />
-</p>
-
-## `~/projects --visual`
-
-### `01 // Seaweed Aggregator` — Website + App
-
-Cultivation aggregation, field operations, coastal livelihood workflows, data collection, and coordinated service delivery.
-
----
-
-### `02 // ElephantWatch` — Website + App
-
-<p align="center">
-  <img src="./assets/elephantwatch-project.jpg" width="72%" alt="Gokul presenting the ElephantWatch early-warning project" />
-</p>
-
-AI-assisted elephant detection, field alerts, camera events, and rapid early-warning workflows for communities near elephant corridors.
-
----
-
-### `03 // Sapling Health Monitor` — Website
-
-Geotagged sapling health, irrigation status, field observations, and monitoring dashboards.
-
----
-
-### `04 // Goat Monitoring` — Website
-
-Livestock records, health observations, field workflows, and rural livelihood program monitoring.
-
----
-
-### `05 // Data Center Monitoring` — IoT Website
-
-Raspberry Pi and Python based monitoring for temperature, humidity, smoke, connectivity, system status, and operational alerts.
-
-`Raspberry Pi` `Python` `IoT Sensors` `React` `Firebase` `Redux Toolkit` `Material UI` `ApexCharts`
-
-**[view repository →](https://github.com/ruraltechammachilabs/temperature-monitor-frontend)**
-
-## `~/additional-engineering-work`
-
-### `06 // Data Center Monitoring System — detailed contribution`
-
-> A real-time operations dashboard for temperature, humidity, smoke, system status, users, and alert recipients.
-
-My contributions include data visualizations, Firebase integration, authentication flows, alert-user operations, offline detection, validation rules, UI improvements, documentation, and configuration security.
-
-`React` `Firebase` `Redux Toolkit` `Material UI` `ApexCharts` `i18n`
-
-**[view repository →](https://github.com/ruraltechammachilabs/temperature-monitor-frontend)**
-
----
-
-### `02 // AIranya`
-
-> An async backend for rural image-classification and annotation workflows.
-
-Supports projects, datasets, categories, images, assignments, annotations, roles, statistics, and authentication, with an architecture ready for object-storage integration.
-
-`Python` `FastAPI` `MongoDB` `Motor` `Pydantic` `JWT` `Firebase Admin` `Docker`
-
-**[view repository →](https://github.com/ruraltechammachilabs/airanya_admin_server)**
-
----
-
-### `03 // Coconut Health Dashboard`
-
-> A responsive field dashboard for coconut-health data, mapped observations, and service-backed agricultural views.
-
-`React` `TypeScript` `Tailwind CSS` `Leaflet` `Axios` `GSAP`
-
-**[view repository →](https://github.com/ruraltechammachilabs/coconuthealth_v2)**
-
-## `~/field-systems --more`
-
-```yaml
-elephant_watch:
-  component: backend
-  purpose: AI-assisted detection events and rapid field alerts
-
-sapling_health:
-  purpose: geotagged plant-health and irrigation monitoring
-
-goat:
-  purpose: field workflows for livestock and rural livelihood programs
-```
-
-## `~/github --telemetry`
+## `05 / github-telemetry`
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=curiousdevthinker&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=c9d1d9&rank_icon=github" alt="Gokul's GitHub statistics" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=curiousdevthinker&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Gokul's most used languages" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=curiousdevthinker&show_icons=true&hide_border=true&bg_color=050B18&title_color=67E8F9&icon_color=C084FC&text_color=CBD5E1&rank_icon=github" alt="GitHub stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=curiousdevthinker&layout=compact&hide_border=true&bg_color=050B18&title_color=67E8F9&text_color=CBD5E1&langs_count=8" alt="Top languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=curiousdevthinker&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=3FB950&currStreakLabel=C9D1D9" alt="Gokul's GitHub contribution streak" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=curiousdevthinker&hide_border=true&background=050B18&ring=22D3EE&fire=C084FC&currStreakLabel=67E8F9&sideLabels=CBD5E1&dates=64748B&currStreakNum=F8FAFC&sideNums=F8FAFC" alt="Contribution streak" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=curiousdevthinker&theme=github_dark&utcOffset=5.5" alt="Productive time" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=curiousdevthinker&bg_color=0d1117&color=8b949e&line=58a6ff&point=3fb950&area=true&hide_border=true" width="100%" alt="Contribution activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=curiousdevthinker&bg_color=050b18&color=94a3b8&line=22d3ee&point=c084fc&area=true&area_color=0e7490&hide_border=true&custom_title=Contribution%20Signal" width="100%" alt="Contribution activity graph" />
 </div>
 
 ```text
-while (curious) {
-  learn();
-  build();
-  deploy();
-  improve();
-}
+signal → understand → design → build → observe → improve
 ```
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=curiousdevthinker&style=flat-square&color=238636&label=PROFILE+VIEWS" alt="Profile view counter" />
-  <br><br>
-  <sub>Built with code, field context, and a bias toward useful things.</sub>
+  <sub>Engineering reliable digital systems for measurable real-world impact.</sub>
 </div>
